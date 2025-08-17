@@ -2,7 +2,7 @@
 
 DevSearch is a custom-built search engine created from the ground up, designed specifically for developers. It focuses on indexing high-quality tutorials, project ideas, and resources for Python and JavaScript.
 
-**Live Application URL:** [Link to your deployed Google Cloud Run app will go here]
+**Live Application URL:** https://devsearch-276231454672.europe-west1.run.app
 
 <img width="1780" height="850" alt="Image" src="https://github.com/user-attachments/assets/224c7edc-ca3d-4455-8d38-3a73fa095133" />
 
