@@ -57,14 +57,14 @@ header {
 }
 
 .logo-area h1 {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--accent-color);
     margin: 0;
 }
 
 .tagline {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: var(--muted-text);
     margin: 8px 0 24px 0;
 }
@@ -107,6 +107,47 @@ body.results-active #search-form {
 }
 body.results-active main {
     padding-top: 90px;
+}
+
+/* === Enhanced Mobile Header Styles === */
+@media (max-width: 640px) {
+    header {
+        padding: 32px 8px 20px;
+        box-shadow: 0 2px 8px var(--shadow-color);
+    }
+    .header-content {
+        max-width: 100%;
+        padding: 0 4px;
+    }
+    .logo-area h1 {
+        font-size: 2rem;
+        margin-bottom: 4px;
+    }
+    .tagline {
+        font-size: 1rem;
+        margin-bottom: 16px;
+    }
+    body.results-active header {
+        padding: 8px 8px;
+        box-shadow: 0 2px 8px var(--shadow-color);
+    }
+    body.results-active .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+        padding: 0 4px;
+    }
+    body.results-active .logo-area h1 {
+        font-size: 1.2rem;
+        margin-bottom: 2px;
+    }
+    body.results-active #search-form {
+        margin: 12px 0 0 0;
+        max-width: 100%;
+    }
+    body.results-active main {
+        padding-top: 70px;
+    }
 }
 
 /* Search Form */
@@ -213,11 +254,10 @@ main {
     word-break: break-all;
 }
 
+/* Remove favicon from result URLs to fix 404 error */
 .result-url::before {
-    content: url('https://www.google.com/s2/favicons?domain=example.com');
-    width: 16px;
-    height: 16px;
-    display: inline-block;
+    content: none;
+    display: none;
 }
 
 .result-snippet {
