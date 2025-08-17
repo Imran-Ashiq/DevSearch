@@ -1,6 +1,6 @@
 # requirements.txt for WebWanderer
 requests
 beautifulsoup4
-supabase-py
+supabase
 flask
 gunicorn
