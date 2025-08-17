@@ -1,0 +1,15 @@
+# Secrets - DO NOT TRACK
+config.py
+
+# Python Virtual Environment
+venv/
+/venv
+__pycache__/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

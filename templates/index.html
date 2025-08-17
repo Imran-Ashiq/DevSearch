@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevSearch</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="logo-area">
+                    <h1>DevSearch</h1>
+                    <p class="tagline">A Developer Search Engine</p>
+                </div>
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search for projects, tutorials, and more...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <div id="loader" class="hidden"></div>
+            <div id="results-container">
+                <!-- Search results will be dynamically inserted here -->
+            </div>
+            <div id="pagination-container">
+                <!-- Pagination controls will be dynamically inserted here -->
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 DevSearch. Developed by Muhammad Imran. All rights reserved.</p>
+    </footer>
+    
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
