@@ -30,7 +30,7 @@ To run this project on your local machine, follow these steps:
 
 ### Clone the Repository:
 ```bash
-git clone [your-repo-link]
+git clone Imran-Ashiq/DevSearch
 cd DevSearch
 ```
 
